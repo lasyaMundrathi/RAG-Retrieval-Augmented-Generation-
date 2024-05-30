@@ -14,7 +14,8 @@ This repository contains a Real-time Recommendation and Generation (RAG) applica
 This application monitors a MongoDB collection for movie data changes, generates embeddings for movie plots using SentenceTransformer, stores these embeddings in Pinecone, and provides real-time recommendations based on user queries. The application also uses Google Generative AI via LangChain to generate responses based on the most relevant movie plots.
 
 ## Architecture:
-![image](https://github.com/lasyaMundrathi/RAG-Retrieval-Augmented-Generation-/assets/98383338/3fcd35f9-db3a-4ef2-a676-c94fd13a9d5d)
+![image](https://github.com/lasyaMundrathi/RAG-Retrieval-Augmented-Generation-/assets/98383338/1973fe15-bce5-4220-ad13-3a4c272533de)
+
 
 ### Components:
 #### 1. MongoDB Database (moviedb and moviecollection):
